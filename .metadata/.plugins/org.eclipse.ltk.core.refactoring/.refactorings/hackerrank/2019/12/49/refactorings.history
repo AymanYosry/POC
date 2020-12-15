@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;hackerrank/src/hackerrank/arraymanipulation/input.csv&apos; to &apos;input.txt&apos;" description="Rename resource &apos;input.csv&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/hackerrank/arraymanipulation/input.csv" name="input.txt" stamp="1575295208092" updateReferences="true"/>
+</session>

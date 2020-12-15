@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;comparetriplets&apos; to &apos;hackerrank.comparetriplets&apos;&#x0D;&#x0A;- Original project: &apos;hackerrank&apos;&#x0D;&#x0A;- Original element: &apos;hackerrank/src/comparetriplets&apos;&#x0D;&#x0A;- Renamed element: &apos;hackerrank/src/hackerrank.comparetriplets&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;comparetriplets&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;comparetriplets" name="hackerrank.comparetriplets" qualified="false" references="true" stamp="1572355859215" textual="false" version="1.0"/>
+</session>

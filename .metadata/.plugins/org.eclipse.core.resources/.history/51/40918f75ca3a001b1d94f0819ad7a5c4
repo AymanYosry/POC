@@ -1,0 +1,147 @@
+/**
+ * 
+ */
+package test;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+/**
+ * @author ayosry
+ *
+ */
+public class WrapperReader
+{
+	private static final Scanner scanner = new Scanner(System.in);
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args)
+	{
+		int n = 5;
+		int m = 2;
+
+		try
+		{
+			System.out.println("Enter Array Elements:");
+			int arr1D[] = read1DArray1(n);
+			System.out.println("Printing Array Elements:");
+			print1DArray(arr1D);
+		}
+		catch (IOException e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+	private static int[] read1DArray1(int n) throws IOException
+	{
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+		int arr1D[] = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+				.mapToInt(Integer::parseInt).toArray();
+
+		bufferedReader.close();
+
+		return arr1D;
+	}
+
+	private static int[] read1DArray2(int n)
+	{
+		int arr1D[] = new int[n];
+		String[] arItems = scanner.nextLine().split(" ");
+		for (int i = 0; i < n; i++)
+		{
+			int arItem = Integer.parseInt(arItems[i].trim());
+			arr1D[i] = arItem;
+		}
+		return arr1D;
+	}
+
+	private static int[][] read2DArray1(int n, int m)
+	{
+		int[][] arr2D = new int[n][m];
+		for (int i = 0; i < n; i++)
+		{
+			String[] rowItems = scanner.nextLine().split(" ");
+			scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+			for (int j = 0; j < m; j++)
+			{
+				int rowItem = Integer.parseInt(rowItems[j].trim());
+				arr2D[i][j] = rowItem;
+			}
+		}
+		return arr2D;
+	}
+
+	private static int[][] read2DArray2(int n, int m) throws IOException
+	{
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+		int[][] arr2D = new int[n][m];
+		for (int i = 0; i < n; i++)
+		{
+			int[] rowItems = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+					.mapToInt(Integer::parseInt).toArray();
+			for (int j = 0; j < m; j++)
+			{
+				arr2D[i][j] = rowItems[j];
+			}
+		}
+		bufferedReader.close();
+		return arr2D;
+	}
+
+	private static List<List<Integer>> read2DArray(int... dim) throws IOException
+	{
+		int n = dim[0];
+		int m = dim[1];
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+		List<List<Integer>> arr = new ArrayList<List<Integer>>();
+		IntStream.range(0, n).forEach(i -> {
+			try
+			{
+				arr.add(Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" ")).map(Integer::parseInt)
+						.collect(Collectors.toList()));
+			}
+			catch (IOException ex)
+			{
+				throw new RuntimeException(ex);
+			}
+		});
+
+		return arr;
+	}
+
+	private static void print1DArray(int[] arr)
+	{
+		for (int num : arr)
+		{
+			System.out.print(num + " ");
+		}
+		System.out.print("\n");
+	}
+
+	public static void print2DArray(int arr[][])
+	{
+		System.out.println("------");
+		for (int row[] : arr)
+		{
+			for (int num : row)
+				System.out.print(num + " ");
+			System.out.println();
+		}
+		System.out.println("------");
+	}
+}

@@ -1,0 +1,168 @@
+package codility.photostatistics;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
+
+/**
+ * 
+ * @author Ayman Yosry
+ * @link D:\DEV\workspace\POC\codility\interview_problems\01
+ */
+public class Solution
+{
+
+	public static void main(String[] args)
+	{
+		String sampleLog = "" + 
+				"photo.jpg, Warsaw, 2013-09-05 14:08:15\n" + 
+				"john.png, London, 2013-06-20 15:13:22\n" + 
+				"myFriends.png, Warsaw, 2013-09-05 14:07:13\n" +
+				"Eiffel.jpg, Paris, 2015-07-23 08:03:02\n" +
+				"pisatower.jpg, Paris, 2015-07-22 23:59:59\n"+
+				"BOB.jpg, London, 2015-08-05 00:02:03\n"+
+				"notredam.png, Paris, 2015-09-01 12:00:00\n"+
+				"me.jpg, Warsaw, 2013-09-06 15:40:22\n"+
+				"a.png, Warsaw, 2016-02-13 13:33:50\n"+
+				"b.jpg, Warsaw, 2016-01-02 15:12:22\n"+
+				"c.jpg, Warsaw, 2016-01-02 14:34:30\n"+
+				"d.jpg, Warsaw, 2016-01-02 15:15:01\n"+
+				"e.png, Warsaw, 2016-01-02 09:49:09\n"+
+				"f.png, Warsaw, 2016-01-02 10:55:32\n"+
+				"g.jpg, Warsaw, 2016-02-29 22:13:11";
+		
+		test();		
+		System.out.println(solution(sampleLog));
+	}
+	
+	public static String solution(String S)
+	{
+		String result = "";
+		Map<String, String[]> photos = getOrganaizedPhotos(S);
+		for (Map.Entry<String, String[]> entry : photos.entrySet())
+		{
+			result += entry.getKey()+entry.getValue()[0]+entry.getValue()[1];  
+		}
+		return result;
+	}
+	
+	private static Map<String, String[]> getOrganaizedPhotos(String photoLog)
+	{
+		Map<String, String[]> linkedPhotoes = new LinkedHashMap<>();
+		Map<String, String> sortedPhotoes = new HashMap<>();
+		String logSeparator = "\\r?\\n";
+		String recordSeparator = ", ";
+		String dateSeparator = " ";
+		String nameSeparator = "[.]";// or \\.
+		
+		String log[] = photoLog.split(logSeparator);
+		
+		String line[] = null;		
+		String fileName[] = null;	
+		String fileDate[] = null;	
+		String city = null, ext=null, value[]= {"",""};
+		String year, month, day, hour, min , sec ;
+
+		for (int i = 0; i < log.length; i++)
+		{
+			line = log[i].split(recordSeparator);
+			fileName = line[0].split(nameSeparator);
+			fileDate = line[2].split(dateSeparator);
+			city = line[1];
+			ext = fileName[1];
+			year = getYear(fileDate[0]);
+			month  = getMonth(fileDate[0]);
+			day  = getDay(fileDate[0]);
+			hour = getHour(fileDate[1]);
+			min  = getMinutes(fileDate[1]);
+			sec  = getSeconds(fileDate[1]);
+			
+			value[0] = ""; 
+			value[1] = ext;
+			sortedPhotoes.put(city+year+month+day+hour+min+sec, ""+i);
+			linkedPhotoes.put(i+"", value);
+		}
+		return linkedPhotoes;
+	}
+
+	private static String getSeconds(String string)
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private static String getMinutes(String string)
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private static String getHour(String string)
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private static String getDay(String string)
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private static String getMonth(String string)
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private static String getYear(String string)
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private static void test()
+	{
+		Map<Integer, String> m = new LinkedHashMap<>();
+		int key = 1; String value="s";
+		m.put(key, value+key);
+		m.put(++key, value+key);
+		m.put(++key, value+key);
+		m.put(++key, value+key);
+		m.put(7, value+7);
+
+		m.put(++key, value+key);
+		m.put(++key, value+key);
+		m.forEach((k, v)->System.out.println(v));	
+		System.out.println("-----------------------");
+		
+		Map<Integer, String> m2 = new HashMap<>();
+		int key2 = 1; String value2="s";
+		m2.put(key2, value+key2);
+		m2.put(++key2, value+key2);
+		m2.put(++key2, value+key2);
+		m2.put(++key2, value+key2);
+		m2.put(7, value+7);
+
+		m2.put(++key2, value+key2);
+		m2.put(++key2, value+key2);
+		m2.forEach((k, v)->System.out.println(v));
+		System.out.println("-----------------------");
+
+		Set<String> m3 = new HashSet<>();
+		int key3 = 1; String value3="s";
+		key2=key3;
+		m3.add(value+key2);
+		m3.add(value+(++key2));
+		m3.add(value+(++key2));
+		m3.add(value+(++key2));
+		m3.add(value+(7));
+
+		m3.add(value+(++key2));
+		m3.add(value+(++key2));
+		m3.forEach((v)->System.out.println(v));
+	}
+
+}

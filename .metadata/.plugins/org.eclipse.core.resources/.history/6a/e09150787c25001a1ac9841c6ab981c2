@@ -1,0 +1,72 @@
+package codility.CyclicRotation;
+
+/**
+ * 
+ * @author ayosry
+ * @link https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
+ */
+public class Solution
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		int A[] = { 3, 8, 9, 7, 6 };
+		// for (int a: solution(A,3))
+		// System.out.print(a);
+		int arr[] = { 1, 2, 3, 4, 5, 6, 7 }; 
+        leftRotate(arr, 2); 
+        printArray(arr);
+		//rightRotat(A, 3);
+
+	}
+
+	private static void printArray(int[] arr)
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static int[] solution(int[] A, int K)
+	{
+		int N = A.length;
+		if (N == 0) return A;
+		if (K >= N) K %= N;
+		if (K == 0) return A;
+		int[] rotA = new int[N];
+		for (int i = 0; i < N; i++)
+			rotA[i] = (i < K) ? A[N + i - K] : A[i - K];
+		return rotA;
+	}
+
+	public static int[] leftRotate(int[] A, int d)
+	{
+		int n = A.length;
+		int i, j, k, temp;
+		int gcd = hcf(d,n);
+		for (i = 0; i < gcd; i++)
+		{
+			/* move i-th values of blocks */
+			temp = A[i];
+			j = i;
+			while (true)
+			{
+				k = j + d;
+				if (k >= n) k = k - n;
+				if (k == i) break;
+				A[j] = A[k];
+				j = k;
+			}
+			A[j] = temp;
+		}
+
+		return A;
+
+	}
+
+	public static int hcf(int a, int b)
+	{
+		if (b == 0) return a;
+		else return hcf(b, a % b);
+	}
+}

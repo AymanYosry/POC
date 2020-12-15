@@ -1,0 +1,145 @@
+/**
+ * 
+ */
+package hackerrank.grd.grid;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.regex.Pattern;
+import java.util.stream.Stream;
+
+import hackerrank.TestCase;
+
+/**
+ * @author Ayman Yosry
+ * 2020/01/28
+ * https://www.hackerrank.com/challenges/grid-challenge/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign
+ */
+public class Solution extends hackerrank.Solution
+{
+	public static void main(String[] args) throws IOException
+	{
+		//TestCase tst = readTestCase("grid", "10");
+		
+		//Stream.of(tst.arrStr).forEach(str -> System.out.println(str));
+		System.out.println("\n");
+		TestCase output = readTestCaseOutput("grid", "10");
+		int i = 0;
+		for(TestCase tst : readTestCases("grid", "10"))
+		{
+			System.out.println(solution(tst.n, tst.arrStr) + " " + output.expectedResult[i++]);
+			if(i == 10) break;
+		}
+		System.out.println(isNumeric("52m5"));
+	}
+	
+	private static String solution(int n, String...rows)
+	{
+		char row[];
+		String cols[] = new String[rows[0].length()];
+		int i,j;
+		for(i = 0; i < n; i++)
+		{
+			row = rows[i].toCharArray();
+			Arrays.parallelSort(row);
+			for(j = 0; j < row.length; j++)
+				cols[j] = (cols[j] != null)? 
+						cols[j] += String.valueOf(row[j]):
+						String.valueOf(row[j]);
+			rows[i] = new String(row);
+		}
+		System.out.println();
+		Stream.of(rows).forEach(str -> System.out.println(str));
+		System.out.println();
+		Stream.of(cols).forEach(str -> System.out.println(str));
+
+		for(i = 0; i < n-1; i++)
+		{
+			if(!lexicographicalCompare(rows[i], rows[i+1]))
+				return "NO";
+			if(i < rows[0].length()-1)
+				if(!lexicographicalCompare(cols[i], cols[i+1]))
+					return "NO";
+		}
+		return "YES";
+	}
+
+	private static boolean lexicographicalCompare(String str1, String str2)
+	{
+		int i = 0, j = 0;
+		while (i < str1.length() && j < str2.length())
+		{
+			if (str1.charAt(i) < str2.charAt(j)) return true;
+			if (str1.charAt(i) > str2.charAt(j)) return false;
+			i++;
+			j++;
+		}
+		return j == str2.length();
+	}
+	
+	public static List<TestCase> readTestCases(String problem, String testCaseNo) throws IOException
+	{
+		List<TestCase> tests = new ArrayList<TestCase>();
+		TestCase allInput = readTestCase("grid", "10");
+		List<String> arr;
+		for(int i = 0; i < allInput.arrStr.length; i++)
+		{
+			TestCase sample = new TestCase();
+			if(isNumeric(allInput.arrStr[i]))
+				sample.n = Integer.valueOf(allInput.arrStr[i]);
+			arr = new ArrayList();
+//			i++;
+//			if(i == )
+			while(!isNumeric(allInput.arrStr[++i]))
+			{
+				if(i == allInput.arrStr.length) break;
+				arr.add(allInput.arrStr[i]);
+			}
+			sample.arrStr = arr.toArray(new String[arr.size()]);
+			tests.add(sample);
+		}
+		return tests;
+	}
+
+	public static TestCase readTestCase(String problem, String testCaseNo) throws IOException
+	{
+		TestCase input = new TestCase();
+
+		String sampleInput[] = Files.lines(Paths.get("files/" + problem + "/input" + testCaseNo + ".txt"))
+				.toArray(String[]::new);
+		input.n = Integer.valueOf(sampleInput[0]);
+		String arr[] = new String[sampleInput.length-1];
+		for(int i = 0; i < input.n; i++)
+		{
+			arr[i] = sampleInput[i+1];
+		}
+		input.arrStr = arr;
+		return input;
+	}
+
+	private static TestCase readTestCaseOutput(String problem, String testCaseNo) throws IOException
+	{
+		TestCase output = new TestCase();
+		String out[] = Files.lines(Paths.get("files/" + problem + "/output" + testCaseNo + ".txt"))
+				.toArray(String[]::new);
+		output.expectedResult = out;
+		return output;
+	}
+
+	private static boolean isNumeric(String strNum) 
+	{
+		//if it is double or float
+		//Pattern pattern = Pattern.compile("-?\\d+(\\.\\d+)?");
+		//if it is int or long
+		Pattern pattern = Pattern.compile("\\d+");
+		if (strNum == null) 
+		{
+			return false; 
+		}
+		return pattern.matcher(strNum).matches();
+	}
+}

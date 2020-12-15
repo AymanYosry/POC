@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package hackerrank.repeatedstring;
+
+/**
+ * @author ayosry
+ *
+ */
+public class Solution {
+	static long repeatedString(String s, long n) {
+		
+		int count = s.length() - s.replace("a", "").length();
+		return count;
+    }
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		long n =10;
+		String s = "aba";
+		//long result = repeatedString(s, n);
+		System.out.println("No. of Occurance of 'a' is: " + s.repeat(3)+s.substring(0));
+	}
+
+}

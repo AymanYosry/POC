@@ -1,0 +1,385 @@
+
+Nov 10, 2019 16:31:17.29 NEW SESSION
+Nov 10, 2019 16:31:17.29 [3444:11784:1110/163117.275:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 16:38:37.30 [3444:5848:1110/163837.298:ERROR:component_installer.cc(125)] Move failed.: Access is denied. (0x5)
+Nov 10, 2019 17:33:20.20 [3444:3108:1110/173320.200:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Nov 10, 2019 17:33:39.11 [3444:3372:1110/173339.112:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 17:33:39.21 [3444:3372:1110/173339.212:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 17:33:39.25 [3444:3372:1110/173339.251:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 17:33:40.25 [3444:3372:1110/173340.253:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 17:33:42.26 [3444:3372:1110/173342.259:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 17:33:42.36 [3444:3108:1110/173342.360:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Nov 10, 2019 19:38:28.52 [3444:3372:1110/193828.520:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:32.55 [3444:3108:1110/193832.554:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -21
+Nov 10, 2019 19:38:33.52 [3444:11784:1110/193833.524:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Nov 10, 2019 19:38:37.86 [3444:3372:1110/193837.863:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:41.20 [3444:2636:1110/193838.890:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:41.20 [3444:3108:1110/193840.908:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Nov 10, 2019 19:38:41.20 [3444:2636:1110/193841.150:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:42.15 [3444:3372:1110/193842.151:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:44.11 [3444:3372:1110/193844.112:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:44.16 [3444:3108:1110/193844.167:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Nov 10, 2019 19:38:45.11 [3444:3372:1110/193845.112:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:47.13 [3444:3372:1110/193847.136:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:47.19 [3444:3108:1110/193847.189:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Nov 10, 2019 19:38:48.13 [3444:3372:1110/193848.137:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:50.17 [3444:3372:1110/193850.179:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:50.24 [3444:3108:1110/193850.249:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -21
+Nov 10, 2019 19:38:51.18 [3444:3372:1110/193851.180:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:53.18 [3444:3372:1110/193853.184:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:54.18 [3444:3372:1110/193854.186:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:56.33 [3444:2636:1110/193856.331:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:56.80 [3444:3372:1110/193856.806:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:56.82 [3444:11784:1110/193856.822:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Nov 10, 2019 19:38:57.81 [3444:3372:1110/193857.810:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:38:59.37 [3444:3372:1110/193859.376:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 19:39:00.37 [3444:2636:1110/193900.377:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 21:44:21.45 [3444:3176:1110/214421.458:ERROR:component_installer.cc(125)] Move failed.: Access is denied. (0x5)
+Nov 10, 2019 22:38:18.68 [3444:3108:1110/223818.682:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Nov 10, 2019 22:38:23.14 [3444:6724:1110/223823.146:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 22:38:23.26 [3444:15564:1110/223823.264:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 22:38:23.28 [3444:15564:1110/223823.287:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 22:38:23.40 [3444:15564:1110/223823.407:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 10, 2019 22:38:24.40 [3444:11660:1110/223824.407:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:51:44.53 [3444:3108:1111/095144.537:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -7
+Nov 11, 2019 09:51:44.54 [3444:11784:1111/095144.549:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Nov 11, 2019 09:51:45.79 [3444:2636:1111/095145.797:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:51:49.64 [3444:4260:1111/095149.645:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:51:54.77 [3444:3108:1111/095154.771:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Nov 11, 2019 09:51:55.13 [3444:14380:1111/095155.128:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Nov 11, 2019 09:51:58.86 [3444:8672:1111/095158.859:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:00.48 [3444:2108:1111/095200.483:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:07.31 [3444:4260:1111/095207.318:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:08.44 [3444:2108:1111/095208.443:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:12.44 [3444:4260:1111/095212.439:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:13.46 [3444:8672:1111/095213.468:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:14.52 [3444:8672:1111/095214.522:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:15.54 [3444:4260:1111/095215.538:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:17.88 [3444:3108:1111/095217.888:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -21
+Nov 11, 2019 09:52:17.98 [3444:11784:1111/095217.989:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Nov 11, 2019 09:52:18.01 [3444:4260:1111/095218.017:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:19.04 [3444:4260:1111/095219.043:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:20.85 [3444:4260:1111/095220.849:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:21.85 [3444:4260:1111/095221.851:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:23.98 [3444:4260:1111/095223.985:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:24.99 [3444:4260:1111/095224.989:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:26.91 [3444:4260:1111/095226.915:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:27.91 [3444:4260:1111/095227.918:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:30.02 [3444:4260:1111/095230.022:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:52:30.03 [3444:3108:1111/095230.031:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -21
+Nov 11, 2019 09:52:31.02 [3444:4260:1111/095231.023:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 09:53:03.07 [3444:3108:1111/095303.072:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -7
+Nov 11, 2019 10:06:22.33 [3444:15088:1111/100622.333:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 10:06:23.33 [3444:20412:1111/100623.336:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 10:06:25.58 [3444:3108:1111/100625.582:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Nov 11, 2019 10:19:57.18 [3444:20412:1111/101957.183:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 10:19:57.23 [3444:20412:1111/101957.231:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 10:19:57.29 [3444:20412:1111/101957.294:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 10:19:57.35 [3444:20412:1111/101957.354:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 10:19:57.40 [3444:20412:1111/101957.405:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 10:19:58.40 [3444:9060:1111/101958.406:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 11, 2019 10:20:00.65 [3444:3108:1111/102000.654:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Nov 12, 2019 10:16:09.81 [3444:11784:1112/101607.838:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Nov 12, 2019 10:16:09.81 [3444:20412:1112/101607.893:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 12, 2019 10:16:09.82 [3444:20260:1112/101608.895:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 12, 2019 10:16:09.82 [3444:14380:1112/101609.686:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Nov 12, 2019 10:16:09.82 [3444:3108:1112/101609.687:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Nov 12, 2019 10:16:09.82 [3444:14380:1112/101609.689:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Nov 12, 2019 10:16:13.46 [3444:20412:1112/101613.464:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 12, 2019 10:16:14.46 [3444:20260:1112/101614.465:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 12, 2019 10:16:16.51 [3444:20260:1112/101616.509:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 12, 2019 10:16:17.51 [3444:19816:1112/101617.510:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 12, 2019 10:16:19.60 [3444:19816:1112/101619.600:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 12, 2019 10:16:20.60 [3444:19816:1112/101620.601:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 12, 2019 10:16:23.92 [3444:3108:1112/101623.918:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Nov 12, 2019 10:16:23.92 [3444:14380:1112/101623.918:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Nov 12, 2019 10:16:23.92 [3444:14380:1112/101623.921:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Nov 12, 2019 10:16:28.35 [3444:11784:1112/101628.357:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Nov 12, 2019 10:16:48.22 [3444:11784:1112/101648.223:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Connection failed (-105).
+Nov 12, 2019 10:17:24.68 [3444:14380:1112/101724.689:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Nov 12, 2019 10:17:28.12 [3444:11784:1112/101728.121:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Nov 12, 2019 10:18:49.75 [3444:11784:1112/101849.749:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Nov 12, 2019 10:21:17.34 [3444:13440:1112/102117.348:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 12, 2019 10:21:18.35 [3444:13440:1112/102118.349:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 12, 2019 10:21:20.80 [3444:3108:1112/102120.801:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Nov 12, 2019 10:21:20.80 [3444:14380:1112/102120.802:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Nov 12, 2019 10:21:28.88 [3444:20260:1112/102128.883:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 12, 2019 10:21:29.88 [3444:20260:1112/102129.884:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 12, 2019 10:21:31.92 [3444:20260:1112/102131.919:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Nov 12, 2019 10:21:32.92 [3444:19816:1112/102132.921:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+
+Dec 25, 2019 24:12:07.57 NEW SESSION
+Dec 25, 2019 24:12:07.57 [17180:1728:1225/001207.523:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 24:16:56.01 [17180:19732:1225/001656.014:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 24:16:57.01 [17180:19572:1225/001657.015:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 24:16:59.29 [17180:560:1225/001659.288:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 24:17:20.83 [17180:560:1225/001720.830:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 24:18:11.64 [17180:560:1225/001811.647:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 24:19:59.23 [17180:560:1225/001959.230:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 24:19:59.93 [17180:19572:1225/001959.935:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 24:20:00.27 [17180:19572:1225/002000.277:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 24:20:00.35 [17180:19572:1225/002000.354:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 24:20:01.36 [17180:19572:1225/002001.362:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 24:20:03.58 [17180:560:1225/002003.580:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 09:45:27.60 [17180:560:1225/094525.289:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 09:45:29.83 [17180:1728:1225/094529.831:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Dec 25, 2019 09:45:29.83 [17180:17100:1225/094529.837:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Dec 25, 2019 09:45:29.96 [17180:19572:1225/094529.858:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:31.11 [17180:15608:1225/094531.111:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:34.10 [17180:560:1225/094534.108:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 09:45:34.11 [17180:17100:1225/094534.114:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Dec 25, 2019 09:45:36.41 [17180:3496:1225/094536.418:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:37.42 [17180:15608:1225/094537.419:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:39.45 [17180:15608:1225/094539.455:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:40.45 [17180:15608:1225/094540.456:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:42.56 [17180:15608:1225/094542.564:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:43.56 [17180:15608:1225/094543.566:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:45.46 [17180:15608:1225/094545.460:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:46.46 [17180:19572:1225/094546.462:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:48.55 [17180:19572:1225/094548.553:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:48.85 [17180:15608:1225/094548.852:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:49.85 [17180:15608:1225/094549.856:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:54.71 [17180:3496:1225/094554.713:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:45:55.71 [17180:18012:1225/094555.717:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:58:52.28 [17180:560:1225/095845.411:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Dec 25, 2019 09:59:04.52 [17180:17420:1225/095904.524:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 09:59:05.52 [17180:17508:1225/095905.525:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:47.08 [17180:560:1225/103047.087:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -7
+Dec 25, 2019 10:30:47.34 [17180:19732:1225/103047.339:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:47.81 [17180:17508:1225/103047.813:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:47.82 [17180:17508:1225/103047.826:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:48.02 [17180:17508:1225/103048.019:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:48.04 [17180:17508:1225/103048.047:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:48.11 [17180:17508:1225/103048.113:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:48.12 [17180:17508:1225/103048.127:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:49.13 [17180:17508:1225/103049.129:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:51.17 [17180:17508:1225/103051.172:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:51.19 [17180:17508:1225/103051.189:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:52.19 [17180:17508:1225/103052.192:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:58.73 [17180:19732:1225/103058.730:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:58.75 [17180:19732:1225/103058.751:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:30:59.75 [17180:17968:1225/103059.754:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:31:01.65 [17180:17508:1225/103101.655:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 10:31:02.65 [17180:12364:1225/103102.657:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:31:06.52 [17180:560:1225/143106.470:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Dec 25, 2019 14:31:22.00 [17180:8888:1225/143122.003:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:31:22.30 [17180:17992:1225/143122.297:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:31:22.41 [17180:8888:1225/143122.416:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:31:22.45 [17180:8888:1225/143122.455:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:31:23.45 [17180:17992:1225/143123.457:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:18.11 [17180:560:1225/143918.109:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -7
+Dec 25, 2019 14:39:20.59 [17180:8888:1225/143918.384:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:20.59 [17180:17992:1225/143918.744:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:20.60 [17180:8888:1225/143919.280:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:20.60 [17180:8888:1225/143919.616:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:20.60 [17180:8888:1225/143919.894:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:20.89 [17180:8888:1225/143920.897:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:23.13 [17180:13436:1225/143923.134:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:24.22 [17180:17992:1225/143924.222:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:30.50 [17180:17992:1225/143930.501:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:31.50 [17180:17992:1225/143931.503:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:33.50 [17180:17992:1225/143933.500:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:34.52 [17180:13436:1225/143934.520:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:36.80 [17180:8888:1225/143936.807:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:37.82 [17180:17992:1225/143937.825:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:39.66 [17180:17992:1225/143939.664:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:39:40.66 [17180:13436:1225/143940.665:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 14:46:07.00 [17180:6012:1225/144607.000:ERROR:component_installer.cc(125)] Move failed.: Access is denied. (0x5)
+Dec 25, 2019 18:40:23.34 [17180:560:1225/184023.339:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Dec 25, 2019 19:46:03.40 [17180:8068:1225/194603.402:ERROR:component_installer.cc(125)] Move failed.: Access is denied. (0x5)
+Dec 25, 2019 22:51:17.78 [17180:14792:1225/225117.786:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 22:51:19.21 [17180:5492:1225/225119.210:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 25, 2019 22:51:23.67 [17180:560:1225/225123.668:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 22:51:50.51 [17180:560:1225/225150.518:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 22:52:45.07 [17180:560:1225/225245.065:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 22:54:24.05 [17180:560:1225/225424.054:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 22:58:01.95 [17180:560:1225/225801.957:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 23:04:53.69 [17180:560:1225/230453.693:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 23:14:53.69 [17180:560:1225/231453.696:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 23:24:53.69 [17180:560:1225/232453.698:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 23:34:53.70 [17180:560:1225/233453.702:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 23:44:30.15 [17180:1728:1225/234430.157:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Dec 25, 2019 23:44:53.70 [17180:560:1225/234453.705:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 23:44:55.60 [17180:1728:1225/234455.603:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Dec 25, 2019 23:45:39.79 [17180:1728:1225/234539.795:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Dec 25, 2019 23:47:33.94 [17180:1728:1225/234733.944:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Dec 25, 2019 23:51:26.06 [17180:1728:1225/235126.065:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Dec 25, 2019 23:54:53.71 [17180:560:1225/235453.709:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 25, 2019 23:58:27.60 [17180:1728:1225/235827.606:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Dec 26, 2019 24:04:53.71 [17180:560:1226/000453.712:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+
+Dec 26, 2019 17:58:41.34 NEW SESSION
+Dec 26, 2019 17:58:41.34 [13036:5100:1226/175841.342:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+
+Dec 29, 2019 02:08:18.90 NEW SESSION
+Dec 29, 2019 02:08:18.98 [17188:12716:1229/020818.572:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 29, 2019 02:15:03.19 [17188:13884:1229/021503.199:ERROR:component_installer.cc(125)] Move failed.: Access is denied. (0x5)
+Dec 29, 2019 03:31:36.01 [17188:17336:1229/033135.224:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Dec 29, 2019 03:31:45.66 [17188:9052:1229/033145.662:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 29, 2019 03:31:46.66 [17188:14920:1229/033146.664:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 29, 2019 13:57:50.77 [17188:12716:1229/135750.771:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Dec 29, 2019 13:57:51.95 [17188:13544:1229/135751.942:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Dec 29, 2019 13:58:34.54 [17188:15364:1229/135834.542:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 29, 2019 13:58:36.34 [17188:14920:1229/135836.345:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 29, 2019 13:58:38.35 [17188:14920:1229/135838.355:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 29, 2019 13:58:39.35 [17188:6460:1229/135839.357:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 29, 2019 13:59:36.38 [17188:9052:1229/135936.386:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 29, 2019 13:59:37.38 [17188:9052:1229/135937.388:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 29, 2019 13:59:43.07 [17188:17336:1229/135943.070:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 29, 2019 14:00:08.88 [17188:17336:1229/140008.882:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Dec 29, 2019 14:00:34.05 [17188:12992:1229/140034.056:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 29, 2019 14:00:35.30 [17188:12992:1229/140035.300:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Dec 29, 2019 14:01:38.90 [17188:19264:1229/140138.900:ERROR:component_installer.cc(125)] Move failed.: Access is denied. (0x5)
+
+Jan 01, 2020 16:50:22.74 NEW SESSION
+Jan 01, 2020 16:50:22.74 [9920:9044:0101/165022.693:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 01, 2020 16:50:35.53 [9920:1456:0101/165035.530:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Jan 01, 2020 16:57:30.54 [20240:19116:0101/165730.544:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 01, 2020 18:33:51.62 [20144:11268:0101/183351.589:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+
+Jan 02, 2020 14:35:43.51 NEW SESSION
+Jan 02, 2020 14:35:43.64 [1996:3104:0102/143543.460:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:40:36.78 [1996:3292:0102/144036.781:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 02, 2020 14:40:56.34 [1996:13844:0102/144056.341:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:40:57.34 [1996:13844:0102/144057.343:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:14.56 [1996:3292:0102/145114.560:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -7
+Jan 02, 2020 14:51:14.56 [1996:3104:0102/145114.561:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 02, 2020 14:51:15.36 [1996:12408:0102/145115.343:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:15.60 [1996:13844:0102/145115.602:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:15.66 [1996:13844:0102/145115.665:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:16.94 [1996:11564:0102/145116.944:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:18.96 [1996:13844:0102/145118.967:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:19.96 [1996:11564:0102/145119.968:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:21.99 [1996:11564:0102/145121.995:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:22.99 [1996:11564:0102/145122.998:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:25.06 [1996:11564:0102/145125.064:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:26.06 [1996:12408:0102/145126.065:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:28.02 [1996:12408:0102/145128.027:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:28.04 [1996:12408:0102/145128.043:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:29.04 [1996:13844:0102/145129.045:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:31.09 [1996:13844:0102/145131.099:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 14:51:32.10 [1996:12408:0102/145132.101:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:17:01.95 [1996:3292:0102/161701.934:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 02, 2020 16:17:09.84 [1996:17388:0102/161709.840:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:17:09.88 [1996:17388:0102/161709.889:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:17:09.98 [1996:17388:0102/161709.984:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:17:10.09 [1996:17388:0102/161710.096:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:17:10.12 [1996:17388:0102/161710.121:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:17:11.12 [1996:17388:0102/161711.122:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:23:46.51 [1996:3292:0102/162346.513:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -7
+Jan 02, 2020 16:23:47.26 [1996:10996:0102/162347.259:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:23:47.59 [1996:10996:0102/162347.597:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:23:47.62 [1996:10996:0102/162347.627:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:23:47.68 [1996:10996:0102/162347.687:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:23:47.78 [1996:10996:0102/162347.780:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:23:47.88 [1996:10996:0102/162347.881:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:23:48.88 [1996:16992:0102/162348.883:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:23:55.33 [1996:10996:0102/162355.337:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:23:55.39 [1996:10996:0102/162355.392:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:23:56.39 [1996:10996:0102/162356.395:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:23:56.51 [1996:3292:0102/162356.493:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -21
+Jan 02, 2020 16:23:58.37 [1996:10996:0102/162358.375:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:23:59.37 [1996:10996:0102/162359.378:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:33:40.92 [1996:3292:0102/163340.927:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 02, 2020 16:33:45.19 [1996:14560:0102/163345.190:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 02, 2020 16:33:46.19 [1996:10996:0102/163346.190:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:10:49.62 [1996:3292:0103/121049.624:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -7
+Jan 03, 2020 12:10:54.65 [1996:16596:0103/121054.655:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:10:55.47 [1996:3104:0103/121055.477:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 03, 2020 12:10:55.48 [1996:1792:0103/121055.479:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Jan 03, 2020 12:11:01.13 [1996:2444:0103/121101.136:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:01.28 [1996:2444:0103/121101.281:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:02.39 [1996:16596:0103/121102.391:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:03.41 [1996:14560:0103/121103.409:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:04.70 [1996:16596:0103/121104.707:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:06.39 [1996:16596:0103/121106.396:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:07.42 [1996:14560:0103/121107.420:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:09.73 [1996:14560:0103/121109.732:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:10.76 [1996:14560:0103/121110.760:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:12.56 [1996:14560:0103/121112.560:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:13.61 [1996:4364:0103/121113.617:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:15.48 [1996:16596:0103/121115.486:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:16.36 [1996:14560:0103/121116.367:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:17.43 [1996:4364:0103/121117.430:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:18.72 [1996:14560:0103/121118.723:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:11:20.26 [1996:4364:0103/121120.269:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 03, 2020 12:12:47.98 [1996:5332:0103/121247.979:ERROR:component_installer.cc(125)] Move failed.: Access is denied. (0x5)
+
+Jan 06, 2020 14:10:42.12 NEW SESSION
+Jan 06, 2020 14:10:42.12 [6676:14404:0106/141042.030:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 06, 2020 14:11:20.11 [6676:15200:0106/141120.108:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 06, 2020 14:11:21.11 [6676:14600:0106/141121.108:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 06, 2020 14:11:23.21 [6676:14600:0106/141123.219:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 06, 2020 14:11:24.22 [6676:14600:0106/141124.221:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 06, 2020 14:11:26.31 [6676:15200:0106/141126.311:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 06, 2020 14:11:27.02 [6676:14404:0106/141127.023:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Request canceled.
+
+Jan 12, 2020 13:22:52.79 NEW SESSION
+Jan 12, 2020 13:22:52.79 [7420:14808:0112/132252.741:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 13:29:47.36 [7420:17544:0112/132947.364:ERROR:component_installer.cc(125)] Move failed.: Access is denied. (0x5)
+Jan 12, 2020 14:47:31.02 [7420:14100:0112/144731.024:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 12, 2020 14:47:35.18 [7420:656:0112/144735.181:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 14:47:35.21 [7420:656:0112/144735.213:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 14:47:35.25 [7420:656:0112/144735.250:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 14:47:36.25 [7420:17276:0112/144736.252:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:04:44.79 [7420:14100:0112/150444.797:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -21
+Jan 12, 2020 15:04:47.60 [7420:656:0112/150447.604:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:04:48.61 [7420:4416:0112/150448.609:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:04:50.45 [7420:14100:0112/150450.458:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Jan 12, 2020 15:04:52.74 [7420:17276:0112/150452.748:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:04:53.75 [7420:17276:0112/150453.750:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:04:55.73 [7420:656:0112/150455.730:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:04:56.73 [7420:17276:0112/150456.731:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:04:58.77 [7420:17276:0112/150458.779:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:04:59.78 [7420:17276:0112/150459.780:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:05:01.85 [7420:17276:0112/150501.855:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:05:02.85 [7420:17276:0112/150502.856:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:05:04.81 [7420:17276:0112/150504.815:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:05:05.81 [7420:17276:0112/150505.816:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:43:38.23 [7420:14100:0112/154338.235:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 12, 2020 15:43:43.27 [7420:17360:0112/154343.269:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 12, 2020 15:43:44.27 [7420:17360:0112/154344.271:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:12.56 [7420:14100:0113/103612.563:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -7
+Jan 13, 2020 10:36:15.64 [7420:14808:0113/103613.131:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 13, 2020 10:36:15.65 [7420:12972:0113/103613.131:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Jan 13, 2020 10:36:15.65 [7420:8164:0113/103614.113:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:15.65 [7420:8164:0113/103615.117:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:15.65 [7420:12972:0113/103615.457:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Jan 13, 2020 10:36:17.94 [7420:7004:0113/103617.940:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:18.94 [7420:7004:0113/103618.944:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:19.14 [7420:7004:0113/103619.138:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:20.72 [7420:7004:0113/103620.722:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:22.19 [7420:7004:0113/103622.192:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:22.42 [7420:7004:0113/103622.425:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:23.89 [7420:8160:0113/103623.898:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:30.06 [7420:17360:0113/103630.066:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:31.29 [7420:17360:0113/103631.288:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:32.92 [7420:8160:0113/103632.919:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:34.10 [7420:17360:0113/103634.103:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:36.35 [7420:12972:0113/103636.354:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Jan 13, 2020 10:36:36.38 [7420:14100:0113/103636.378:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Jan 13, 2020 10:36:36.41 [7420:12972:0113/103636.410:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Jan 13, 2020 10:36:36.51 [7420:8164:0113/103636.513:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:37.53 [7420:17360:0113/103637.530:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:39.09 [7420:17360:0113/103639.092:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:39.23 [7420:17360:0113/103639.232:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:39.48 [7420:17360:0113/103639.488:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:40.53 [7420:17360:0113/103640.534:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:42.82 [7420:14100:0113/103642.823:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Jan 13, 2020 10:36:42.82 [7420:12972:0113/103642.825:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Jan 13, 2020 10:36:42.85 [7420:14808:0113/103642.856:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 13, 2020 10:36:42.85 [7420:12972:0113/103642.857:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Jan 13, 2020 10:36:45.08 [7420:17360:0113/103645.087:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:46.09 [7420:17360:0113/103646.090:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:36:48.27 [7420:14100:0113/103648.275:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Jan 13, 2020 10:36:48.27 [7420:12972:0113/103648.276:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Jan 13, 2020 10:37:11.68 [7420:17360:0113/103711.685:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:37:11.73 [7420:17360:0113/103711.735:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 10:37:12.75 [7420:7004:0113/103712.753:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 11:27:37.96 [7420:13976:0113/112737.763:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 11:27:38.76 [7420:13976:0113/112738.765:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 11:27:41.11 [7420:13976:0113/112741.112:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+Jan 13, 2020 11:27:42.11 [7420:18420:0113/112742.114:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0
+
+Jan 14, 2020 11:03:12.07 NEW SESSION
+Jan 14, 2020 11:03:12.07 [12332:12348:0114/110312.002:ERROR:network_change_notifier_win.cc(141)] WSALookupServiceBegin failed with: 0

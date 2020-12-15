@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;codility.musicfilestatistics&apos; to &apos;codility.harddrivestatistics&apos;&#x0D;&#x0A;- Original project: &apos;codility&apos;&#x0D;&#x0A;- Original element: &apos;codility/src/codility.musicfilestatistics&apos;&#x0D;&#x0A;- Renamed element: &apos;codility/src/codility.harddrivestatistics&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;codility.musicfilestatistics&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;codility.musicfilestatistics" name="codility.harddrivestatistics" qualified="false" references="true" stamp="1576088097036" textual="false" version="1.0"/>
+</session>

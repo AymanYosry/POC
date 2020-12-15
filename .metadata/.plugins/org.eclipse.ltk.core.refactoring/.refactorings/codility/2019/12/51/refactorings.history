@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;codility.mobilebill.Solution.calcualteBill(...)&apos; to &apos;getPhonBill&apos;&#x0D;&#x0A;- Original project: &apos;codility&apos;&#x0D;&#x0A;- Original element: &apos;codility.mobilebill.Solution.calcualteBill(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;codility.mobilebill.Solution.getPhonBill(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;calcualteBill&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;codility.mobilebill{Solution.java[Solution~calcualteBill~QString;" name="getPhonBill" references="true" stamp="1576657693578" version="1.0"/>
+</session>

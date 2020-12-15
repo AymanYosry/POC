@@ -1,0 +1,123 @@
+/**
+ * 
+ */
+package hackerrank.ar.arraymanipulation;
+
+import java.util.Arrays;
+
+/**
+ * @author ayosry
+ * @link https://www.hackerrank.com/challenges/crush/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign&h_r=next-challenge&h_v=zen
+ */
+public class Solution
+{
+
+	private int finishedButFailsInSomeTestcases;
+
+	/**
+	 * @param args
+	 */
+
+	public static void main(String[] args)
+	{
+		int n = 5;
+		int m = 3;
+		int queries[][] = { { 1, 2, 100 }, { 2, 5, 100 }, { 3, 4, 100 } };// new
+																			// int[m][3];
+		int max_i = 0, min_j = 10000000;
+		// i 1, j 2
+		// i 2, j 4// min_j>max_i;
+		// long result = arrayManipulation(n, queries, max_i, min_j);
+		long result2 = arrayManipulation(n, queries);
+		// System.out.print("\nMax element in array is: " + result);
+		System.out.print("\nMax element in array is: " + result2);
+
+	}
+
+	private static long arrayManipulation(int n, int[][] queries, int max_i, int min_j)
+	{
+		int arr[] = new int[n];
+		for (int i = 0; i < queries.length; i++)
+		{
+			arr = fillArray(arr, queries[i], max_i, min_j);
+			printArray(arr);
+
+		}
+		return Arrays.stream(arr).max().getAsInt();
+	}
+
+	static long arrayManipulation(int n, int[][] queries)
+	{
+		int arr[] = new int[n];
+		for (int i = 0; i < queries.length; i++)
+			arr = fillArray(arr, queries[i]);
+		// printArray(arr);
+		// return Arrays.stream(arr).max().getAsInt();
+		return max(arr);
+	}
+
+	private static long max(int[] arr)
+	{
+		int max = 0, sum = 0;
+		for (int num : arr)
+		{
+			sum+= num;
+			if (sum > max)
+				max = sum;
+		}
+		
+		return max;
+	}
+
+	private static int[] fillArray(int[] arr, int[] query)
+	{
+		int lower = query[0] - 1;
+		int upper = query[1] - 1;
+		int value = query[2];
+		arr[lower] += value;
+		arr[upper] -= value;
+		return arr;
+	}
+
+	private static int[] fillArray_OLD(int[] arr, int[] indx)
+	{
+		for (int i = indx[0] - 1; i < indx[1] && i < arr.length; i++)
+		{
+			arr[i] += indx[2];
+		}
+		return arr;
+	}
+
+	private static int[] fillArray(int[] arr, int[] indx, int max_i, int min_j)
+	{
+		for (int i = max_i; i < min_j && i < indx[1]; i++)
+		{
+			arr[i] += indx[2];
+		}
+		return arr;
+	}
+
+	// static long arrayManipulation2(int m, int n, int[][] queries)
+	// {
+	// int arr[][] = new int[n][m];
+	// //arr[][2]=4;
+	// for (int i = 0; i < n; i++)
+	// {
+	// arr[i] += indx[2];
+	// arr = fillArray(arr, queries[i]);
+	// printArray(arr);
+	//
+	// }
+	// return Arrays.stream(arr).max().getAsInt();
+	// }
+	//
+
+	private static void printArray(int[] arr)
+	{
+		for (int num : arr)
+		{
+			System.out.print(num + " ");
+		}
+		System.out.print("\n");
+	}
+}

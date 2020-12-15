@@ -1,0 +1,148 @@
+/**
+ * 
+ */
+package hackerrank.srt.fraud;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.stream.Stream;
+
+/**
+ * @author Ayman Yosry
+ *         https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting
+ */
+public class Solution
+{
+
+	/**
+	 * @param args
+	 * @throws IOException
+	 */
+	static int complexity = 0;
+
+	public static void main(String[] args) throws IOException
+	{
+		TestCase input = readTestCase("00");
+		System.out.println(activityNotifications(input.expenditures, input.trailingDdays));
+		System.out.printf("Complexity = %d", complexity);
+	}
+
+	private static int activityNotifications(int[] expenditure, int trailingDays)
+	{
+		int n = expenditure.length;
+
+		int notifications = 0;
+		int current = 0;
+		int end = trailingDays;
+		double mid;
+
+		int count[] = new int[201];
+		for (int i = 0; i < end; i++)
+		{
+			count[expenditure[i]]++;
+		}
+
+		for (int i = end; i < n; i++)
+		{
+			if (expenditure[i] >= 2*median(expenditure, count, i, trailingDays))
+			{
+				notifications++;
+			}
+			count[expenditure[i]]++;
+			count[expenditure[i - trailingDays]]--;
+		}
+		return notifications;
+	}
+
+	private static int activityNotifications2(int[] expenditure, int trailingDays)
+	{
+		int notifications = 0;
+		int n = expenditure.length;
+
+		int count[] = new int[201];
+		for (int i = 0; i < trailingDays; i++)
+		{
+			count[expenditure[i]]++;
+		}
+
+		for (int i = trailingDays; i < n; i++)
+		{
+			if (expenditure[i] >= median(expenditure, count, i, trailingDays))
+			{
+				notifications++;
+			}
+			count[expenditure[i]]++;
+			count[expenditure[i - trailingDays]]--;
+		}
+		return notifications;
+	}
+
+	private static double median(int[] arr, int[] c, int end, int d)
+	{
+		int output[] = new int[d];
+		int count[] = new int[201];
+		for (int j = 0; j < 201; j++)
+		{
+			count[j] = c[j];
+		}
+		for (int i = 1; i < 201; i++)
+		{
+			count[i] += count[i - 1];
+		}
+		for (int i = end - 1; i >= end - d; i--)
+		{
+//			System.out.print(i + " ");
+			output[count[arr[i]] - 1] = arr[i];
+		}
+		if (d % 2 != 0)
+		{
+			return 2 * output[d / 2];
+		}
+		else
+		{
+			return (double) ((output[d / 2] + output[d / 2 + 1]));
+		}
+	}
+
+	private static int activityNotifications_BAD(int[] expenditure, int trailingDays)
+	{
+		int notifications = 0;
+		double median;
+		int n = expenditure.length;
+		boolean condition = true;
+		for (int i = 0; condition; i++)
+		{
+			median = getMedian(Arrays.copyOfRange(expenditure, i, i + trailingDays));
+			if (expenditure[i + trailingDays] >= 2 * median) notifications++;
+
+			condition = (n % trailingDays == 0) ? (i < n) : (i < (n % trailingDays) - 1);
+			complexity++;
+		}
+		return notifications;
+	}
+
+	private static double getMedian(int[] arr)
+	{
+		double median;
+		int mid, n;
+		n = arr.length;
+
+		mid = n / 2;
+		Arrays.parallelSort(arr);
+		median = (n % 2 == 0) ? ((double) (arr[mid] + arr[mid - 1]) / 2) : arr[mid];
+		return median;
+	}
+
+	///////////////////////////////////////////////////////////////////////////
+	private static TestCase readTestCase(String testCaseNo) throws IOException
+	{
+		TestCase input = new TestCase();
+
+		String sampleInput[] = Files.lines(Paths.get("files/frd/input" + testCaseNo + ".txt")).toArray(String[]::new);
+		input.trailingDdays = Integer.valueOf(sampleInput[0].split(" ")[1]);
+		input.expenditures = Stream.of(sampleInput[1].split(" ")).mapToInt(Integer::parseInt).toArray();
+		return input;
+	}
+}

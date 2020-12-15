@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;practice/src/datastructure.stack&apos;&#x0D;&#x0A;- Original project: &apos;practice-datastructures&apos;&#x0D;&#x0A;- Destination element: &apos;practice/src/datastructure.stack&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ds.stack.Stack.java&#x0D;&#x0A;     ds.stack.App.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="=practice/src&lt;datastructure.stack" element1="/src&lt;ds.stack{Stack.java" element2="/src&lt;ds.stack{App.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1577896273917" units="2" version="1.0"/>
+</session>

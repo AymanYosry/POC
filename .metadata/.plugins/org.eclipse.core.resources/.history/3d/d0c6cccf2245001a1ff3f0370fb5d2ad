@@ -1,0 +1,34 @@
+package codility.bulb;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.stream.Stream;
+
+public class Solution
+{
+	public static void main(String[] args)
+	{
+		TestCase tst = readTestCase("001");
+		print2DArray(tst.arrInt2D);
+		printArray(tst.arrInt);
+		System.out.println(solution(tst.arrInt2D));
+	}
+
+	private static void solution(int... arr)
+	{
+
+	}
+
+	// read 1d arr int
+	public static TestCase readTestCase(String problem, String testCaseNo) throws IOException
+	{
+		TestCase input = new TestCase();
+
+		String sampleInput[] = Files.lines(Paths.get("files/" + problem + "/input" + testCaseNo + ".txt"))
+				.toArray(String[]::new);
+		input.n = Integer.valueOf(sampleInput[0]);
+		input.arr = Stream.of(sampleInput[1].split(" ")).mapToInt(Integer::parseInt).toArray();
+		return input;
+	}
+}

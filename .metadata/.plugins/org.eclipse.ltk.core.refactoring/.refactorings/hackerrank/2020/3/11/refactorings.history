@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;input001.txt&apos; to &apos;hackerrank/files/knapsack&apos;&#x0D;&#x0A;- Original project: &apos;hackerrank&apos;&#x0D;&#x0A;- Destination element: &apos;hackerrank/files/knapsack&apos;&#x0D;&#x0A;- Original element: &apos;input001.txt&apos;" description="Copy file" destination="/files&lt;knapsack" element1="files/knapsack/input001.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1583774869462" units="0" version="1.0"/>
+</session>

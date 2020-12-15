@@ -1,0 +1,12 @@
+Correct		My
+NO			NO
+YES			YES
+YES 		YES
+YES 		YES
+NO			NO
+YES			YES
+YES			YES
+YES			YES
+YES			NO
+YES			YES
+

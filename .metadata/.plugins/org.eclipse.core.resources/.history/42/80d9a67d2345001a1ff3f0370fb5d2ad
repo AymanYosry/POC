@@ -1,0 +1,11 @@
+package codility.bulb;
+
+/**
+ * @author Ayman Yosry
+ *
+ */
+public class TestCase
+{
+	public int n;
+	public int arr[];
+}

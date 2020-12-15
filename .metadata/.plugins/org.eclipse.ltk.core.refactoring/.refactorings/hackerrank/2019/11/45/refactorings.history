@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;hackerrank.reciperemainder.RecipeRemainder&apos; to &apos;Solution&apos;&#x0D;&#x0A;- Original project: &apos;hackerrank&apos;&#x0D;&#x0A;- Original element: &apos;hackerrank.reciperemainder.RecipeRemainder&apos;&#x0D;&#x0A;- Renamed element: &apos;hackerrank.reciperemainder.Solution&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;RecipeRemainder&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;hackerrank.reciperemainder{RecipeRemainder.java[RecipeRemainder" matchStrategy="1" name="Solution" qualified="false" references="true" similarDeclarations="false" stamp="1573314980710" textual="false" version="1.0"/>
+</session>

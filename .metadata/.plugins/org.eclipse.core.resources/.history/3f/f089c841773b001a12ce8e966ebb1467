@@ -1,0 +1,60 @@
+/**
+ * 
+ */
+package hackerrank.grd.maxmin;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.stream.Stream;
+
+/**
+ * @author Ayman Yosry
+ * https://www.hackerrank.com/challenges/angry-children/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms
+ */
+public class Solution
+{
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException
+	{
+		TestCase tst = readTestCase("02");
+		printArray(tst.arr);
+		System.out.println(maxMin(tst.k, tst.arr));
+	}
+	
+	private static int maxMin(int k, int[] arr) 
+	{
+		Arrays.parallelSort(arr);
+		printArray(arr);
+		int unfairnessArr[] = Arrays.copyOf(arr, k);
+		int maxUnfairness = Arrays.stream(unfairnessArr).max().getAsInt();
+		int minUnfairness = Arrays.stream(unfairnessArr).min().getAsInt();
+
+		return maxUnfairness - minUnfairness;
+    }
+	
+	private static TestCase readTestCase(String testCaseNo) throws IOException
+	{
+		TestCase input = new TestCase();
+
+		String sampleInput[] = Files.lines(Paths.get("files/maxmin/input" + testCaseNo + ".txt"))
+				.toArray(String[]::new);
+		input.k = Integer.valueOf(sampleInput[1]);
+		input.arr = Stream.of(sampleInput[2].split(" ")).mapToInt(Integer::parseInt).toArray();
+		return input;
+	}
+
+	private static void printArray(int[] arr)
+	{
+		String printStatment = "";
+		for (int a : arr)
+			printStatment += (a + ", ");
+		printStatment = printStatment.substring(0, printStatment.lastIndexOf(","));
+		System.out.println("[" + printStatment + "]");
+	}
+}
